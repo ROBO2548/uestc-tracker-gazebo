@@ -1,0 +1,8 @@
+prefix=/home/robowork/tracker/Fast-Tracker/devel
+
+Name: gazebo_extra_plugins
+Description: Description of gazebo_extra_plugins
+Version: 0.0.0
+Cflags: -I/home/robowork/tracker/Fast-Tracker/src/gazebo_extra_plugins/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime gazebo_msgs roscpp rospy std_msgs

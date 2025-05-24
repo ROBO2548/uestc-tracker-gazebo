@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robowork/tracker/Fast-Tracker/devel/include/**",
+        "/home/robowork/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/tracker/planning/DecompROS/decomp_ros_utils/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/gazebo_extra_plugins/include/**",
+        "/home/robowork/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/**",
+        "/home/robowork/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros/include/**",
+        "/home/robowork/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros_control/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/tracker/mapping/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/tracker/planning/planning/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/Utils/pose_utils/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/Utils/quadrotor_msgs/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/Utils/selected_points_publisher/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/tracker/detection/target_ekf/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/tracker/planning/traj_opt/include/**",
+        "/home/robowork/tracker/Fast-Tracker/src/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,8 @@
+prefix=/home/robowork/tracker/Fast-Tracker/devel
+
+Name: planning
+Description: Description of planning
+Version: 0.0.0
+Cflags: -I/home/robowork/tracker/Fast-Tracker/src/tracker/planning/planning/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lplanning
+Requires: quadrotor_msgs traj_opt mapping roscpp nodelet decomp_ros_utils

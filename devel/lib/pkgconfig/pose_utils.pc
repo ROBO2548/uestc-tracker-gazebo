@@ -1,0 +1,8 @@
+prefix=/home/robowork/tracker/Fast-Tracker/devel
+
+Name: pose_utils
+Description: Description of pose_utils
+Version: 0.0.0
+Cflags: -I/home/robowork/tracker/Fast-Tracker/src/Utils/pose_utils/include
+Libs: -L${prefix}/lib -lpose_utils
+Requires: 
